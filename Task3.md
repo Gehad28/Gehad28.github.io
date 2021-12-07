@@ -51,4 +51,54 @@
 <img src="task3 images/Const class object.png" width="800" />
 
 
+# **& Oprerator**
+
+### The AND operator takes two numbers as operands, it compares one bit from the first operand with the corresponding bit in the second operand, the result is one if only the two bits are one.
+<img src="task3 images/& operator.png" width="800" />
+
+### Output:
+<img src="task3 images/& operator output.png" width="800" />
+
+## Using & operator in logical operations:
+### If we want to make a logical operation that returns true if two (or more) conditions are true, and false if two (or more) conditions are false, we can use **(&&)**:
+<img src="task3 images/&& operator.png" width="800" />
+
+### Output:
+<img src="task3 images/&& operator output.png" width="800" />
+
+## Using & operator in references:
+### We can declare a variable as a reference by putting ‘&’ in the declaration.
+<img src="task3 images/reference.png" width="800" />
+### ref is a reference to x.
+### When we change the value of ref; the value of x will change also.
+### When we change the value of x; the value of ref will change also.
+### Output:
+<img src="task3 images/reference output.png" width="800" />
+
+### This can de used to:
+## Modify parameters of a function:
+### If we pass a reference to a variable in a function, it can modify the value of the variable.
+<img src="task3 images/modify.png" width="800" />
+
+###Output:
+<img src="task3 images/modify output.png" width="800" />
+
+## Avoiding a copy of large structures:
+### If pass a large object to a function, a copy of this object will be created and this is causes wastage of CPU time and memory. We can use references to avoid this.
+<img src="task3 images/copy.png" width="800" />
+
+## In For Loops to modify all objects:
+### In vector v, we an modify elements if we use reference.
+<img src="task3 images/for loop.png" width="800" />
+
+### Output:
+<img src="task3 images/for loop output.png" width="800" />
+
+## In for loop to avoid the copy of objects:
+### In vector v, We avoid copy of the whole string object by using reference.
+<img src="task3 images/for copy.png" width="800" />
+
+
+
+
 
