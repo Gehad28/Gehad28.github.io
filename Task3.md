@@ -69,18 +69,19 @@
 ## Using & operator in references:
 ### We can declare a variable as a reference by putting ‘&’ in the declaration.
 <img src="task3 images/reference.png" width="800" />
+
 ### ref is a reference to x.
 ### When we change the value of ref; the value of x will change also.
 ### When we change the value of x; the value of ref will change also.
 ### Output:
 <img src="task3 images/reference output.png" width="800" />
 
-### This can de used to:
+### **This can de used to:**
 ## Modify parameters of a function:
 ### If we pass a reference to a variable in a function, it can modify the value of the variable.
 <img src="task3 images/modify.png" width="800" />
 
-###Output:
+### Output:
 <img src="task3 images/modify output.png" width="800" />
 
 ## Avoiding a copy of large structures:
