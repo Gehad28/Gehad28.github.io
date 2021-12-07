@@ -53,7 +53,7 @@
 
 # **& Oprerator**
 
-### The AND operator takes two numbers as operands, it compares one bit from the first operand with the corresponding bit in the second operand, the result is one if only the two bits are one.
+### The bitwise AND operator takes two numbers as operands, it compares one bit from the first operand with the corresponding bit in the second operand, the result is one if only the two bits are one.
 <img src="task3 images/& operator.png" width="800" />
 
 ### Output:
