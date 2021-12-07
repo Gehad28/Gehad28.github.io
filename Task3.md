@@ -1,7 +1,6 @@
 # **Const keyword**
 
-### The const keyword makes the object or the variable unmodifiable, it can be used with with any method(), variable, pointer variable, 
-### class data members, class member functions, objects.
+### The const keyword makes the object or the variable unmodifiable, it can be used with with any method(), variable, pointer variable, class data members, class member functions, objects.
 
 ## 1) Constant variables:
 ### Using the const keyword preventing you from ghanging its value, and you must initialize the variable while declaring it.
